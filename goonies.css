@@ -1,0 +1,21 @@
+#section-goonies {
+  background-color: rgb(55, 58, 71);
+}
+
+.column-images {
+  border: 5px solid black;
+  display: flex;
+  grid-template-columns: repeat(4, 1fr);
+  height: 100%;
+}
+
+.column-images div:nth-child(1) { background-color: #96ceb4; }
+.column-images div:nth-child(2) { background-color: #ff6f69; }
+.column-images div:nth-child(3) { background-color: #c9d888; }
+.column-images div:nth-child(4) { background-color: #969cce; }
+
+.column-images div {
+  border: 5px solid black;
+  flex: 1;
+}
+

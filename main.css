@@ -4,6 +4,10 @@
 
 @import url("showcase.css");
 @import url("plot.css");
+@import url("goonies.css");
+@import url("credits.css");
+@import url("gallery.css");
+@import url("basic.css");
 
 :root {
   --cruise: #C7F0DB;
@@ -12,15 +16,14 @@
   --gunPowder: #464159;
 }
 
-* {
+body, html {
+  height: 100%;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
 body {
-  margin: 10px;
-  background-color: var(--lynch);
   font-family: 'Montserrat', sans-serif; /* sharpgrotesk25 */
   color: #e5e5e5;
 }
@@ -39,6 +42,11 @@ section {
   list-style: none;
   padding: 35px 0 0 0;
   font-weight: 700;
+}
+
+.nav-bar ul li {
+  flex: 1;
+  text-align: center;
 }
 
 li a {
