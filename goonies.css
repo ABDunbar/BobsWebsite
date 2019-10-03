@@ -35,9 +35,7 @@
 }
 
 .image3 {
-  background: url('https://source.unsplash.com/random/200x800');
-  background-size: cover;
-  background-position: center;
+  opacity: 0.4;
 }
 
 .image4 {
