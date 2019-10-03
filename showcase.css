@@ -1,0 +1,27 @@
+/*--- SHOWCASE ---*/
+
+.showcase {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: #e5e5e5;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30vh;
+}
+
+.showcase-line1 {
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 2em;
+}
+
+.showcase-line2 {
+  font-family: 'Mansalva', cursive;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.showcase-line2 span {
+  font-family: 'Mansalva', cursive;
+  font-size:4em;
+}
