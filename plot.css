@@ -1,5 +1,9 @@
-body {
+.body-plot {
   background-color: var(--lynch);
+  background-image: url('https://source.unsplash.com/random/600x600');
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(50%);
 }
 
 .plot-text {

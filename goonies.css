@@ -1,10 +1,5 @@
-.column-images div:nth-child(1) { background-color: rgba(200, 141, 206, 0.2); }
-.column-images div:nth-child(2) { background-color: rgba(99, 68, 68, 0.2); }
-.column-images div:nth-child(3) { background-color: rgba(146, 150, 115, 0.2); }
-.column-images div:nth-child(4) { background-color: rgba(161, 161, 161, 0.2); }
 
 #section-goonies {
-  background-color: rgb(55, 58, 71);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
@@ -20,6 +15,7 @@
 .nav-bar {
   grid-column: 1 / 5;
   grid-row: 1 / 2;
+  order: 999;
 }
 
 .image1 {
@@ -32,10 +28,14 @@
   background: url('https://source.unsplash.com/random/200x700');
   background-size: cover;
   background-position: center;
+  /* opacity: 0.2; */
 }
 
 .image3 {
-  opacity: 0.4;
+  background: url('https://source.unsplash.com/random/200x800');
+  background-size: cover;
+  background-position: center;
+  /* opacity: 0.2; */
 }
 
 .image4 {

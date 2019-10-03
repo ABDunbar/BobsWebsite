@@ -28,6 +28,12 @@ body {
   color: #e5e5e5;
 }
 
+.body-index {
+  background-image: url('https://source.unsplash.com/random/650x650');
+  background-size: cover;
+  background-position: center;
+}
+
 .font-large {
   font-size: 3em;
 }
