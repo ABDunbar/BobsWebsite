@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap');
+
+@import url("showcase.css");
+@import url("plot.css");
+@import url("goonies.css");
+@import url("credits.css");
+/* @import url("gallery.css"); */
+@import url("cards.css");
+
+:root {
+  --cruise: #C7F0DB;
+  --gulfStream: #8BBABB;
+  --lynch: #6C7B95;
+  --gunPowder: #464159;
+}
+
+body, html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif; /* sharpgrotesk25 */
+  color: #e5e5e5;
+}
+
+.body-index {
+  background-image: url('https://source.unsplash.com/random/650x650');
+  background-size: cover;
+  background-position: center;
+}
+
+.font-large {
+  font-size: 3em;
+}
+
+section {
+  height: 100vh;
+}
+
+.nav-bar ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 35px 0 0 0;
+  font-weight: 700;
+}
+
+.nav-bar ul li {
+  flex: 1;
+  text-align: center;
+}
+
+li a {
+  text-decoration: none;
+  color: #e5e5e5;
+}
+
+.current {
+  color: var(--gunPowder);
+}
