@@ -1,8 +1,18 @@
 .column-images {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  /* display: grid; */
+  /* grid-template-columns: repeat(4, 1fr); */
 }
 
+.image-link {
+  border: 5px solid brown;
+  /* grid-column: 1 / 2; */
+  display: inline-block;
+  width: 25vh;
+  height: 90vh;
+  overflow: hidden;
+}
+
+/*
 .image1 {
   border: 5px solid brown;
   grid-column: 1 / 2;
@@ -19,7 +29,6 @@
   background: url('https://source.unsplash.com/random/200x700');
   background-size: cover;
   background-position: center;
-  /* opacity: 0.2; */
 }
 
 .image3 {
@@ -29,7 +38,6 @@
   background: url('https://source.unsplash.com/random/200x800');
   background-size: cover;
   background-position: center;
-  /* opacity: 0.2; */
 }
 
 .image4 {
@@ -39,4 +47,8 @@
   background: url('https://source.unsplash.com/random/200x900');
   background-size: cover;
   background-position: center;
+}
+*/
+.image-link:hover img {
+  transform: scale(1.3);
 }
