@@ -6,8 +6,7 @@
 .image1 {
   border: 5px solid brown;
   grid-column: 1 / 2;
-  grid-row: 1 / 5;
-  height: 500px;
+  height: 90vh;
   background: url('https://source.unsplash.com/random/200x600');
   background-size: cover;
   background-position: center;
@@ -16,8 +15,7 @@
 .image2 {
   border: 5px solid brown;
   grid-column: 2 / 3;
-  grid-row: 1 / 5;
-  height: 500px;
+  height: 90vh;
   background: url('https://source.unsplash.com/random/200x700');
   background-size: cover;
   background-position: center;
@@ -27,8 +25,7 @@
 .image3 {
   border: 5px solid brown;
   grid-column: 3 / 4;
-  grid-row: 1 / 5;
-  height: 500px;
+  height: 90vh;
   background: url('https://source.unsplash.com/random/200x800');
   background-size: cover;
   background-position: center;
@@ -38,8 +35,7 @@
 .image4 {
   border: 5px solid brown;
   grid-column: 4 / 5;
-  grid-row: 1 / 5;
-  height: 500px;
+  height: 90vh;
   background: url('https://source.unsplash.com/random/200x900');
   background-size: cover;
   background-position: center;
